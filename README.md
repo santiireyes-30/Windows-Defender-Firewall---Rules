@@ -46,3 +46,31 @@ Bloquear FTP (21).
 
 Cuando alguien intente usar esos puertos, el firewall dejará una evidencia en el archivo de log. Por ejemplo, si un equipo intenta conectarse al puerto 23, el firewall registrará algo equivalente a:
 - "La IP 192.168.1.10 intentó conectarse al puerto 23 de mi equipo a las 20:15, y la conexión fue bloqueada."
+
+Como ya hemos creado la regla para bloquearlo, el firewall registrará algo parecido a:
+
+- Fecha y hora del intento.
+- IP de origen (quién intentó conectarse).
+- IP de destino (tu computadora).
+- Protocolo utilizado (TCP, UDP o ICMP).
+- Puerto de origen.
+- Puerto de destino (23).
+- Acción realizada (DROP, es decir, bloqueado).
+
+Con esa información puedes responder preguntas como:
+
+- Quién intentó conectarse?
+- Cuándo ocurrió?
+- A qué puerto?
+- El firewall lo bloqueó?
+
+Segundo ejemoplo: Conexión permitida
+
+Una vez ya activado Log successful connections, el firewall registrará cuando una conexión sea permitida.
+
+Por ejemplo:
+
+Un navegador accede a una página web por HTTPS (443).
+Una aplicación autorizada establece una conexión.
+
+Así podrás ver tanto lo que se bloqueó como lo que se permitió.

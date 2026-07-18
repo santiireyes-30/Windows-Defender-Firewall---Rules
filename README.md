@@ -68,9 +68,6 @@ Segundo ejemoplo: Conexión permitida
 
 Una vez ya activado Log successful connections, el firewall registrará cuando una conexión sea permitida.
 
-Por ejemplo:
+Por ejemplo: Un navegador accede a una página web por HTTPS (443) o una aplicación autorizada establece una conexión.
 
-Un navegador accede a una página web por HTTPS (443).
-Una aplicación autorizada establece una conexión.
-
-Así podrás ver tanto lo que se bloqueó como lo que se permitió.
+Así vemos que se bloqueó como lo que se permitió.

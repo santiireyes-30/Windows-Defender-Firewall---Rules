@@ -8,8 +8,6 @@ Este proyecto se centra únicamente en crear reglas y comprender cómo funcionan
 
 - Windows Defender Firewall with Advanced Security
 - PowerShell
-- CMD
-- netstat
 - Test-NetConnection
 
 ### Pasos del Proyecto
